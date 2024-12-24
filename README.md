@@ -20,14 +20,25 @@ CloudFront: Once the app is deployed to S3, a CloudFront distribution is created
 # Functionalities
 
 Sign Up
+###
 Log In
+###
 Refresh Access Token
+####
 Create bucket
+####
 Delete bucket
+###
 Retrieve list of buckets
+###
 Retrieve of CloudFront distributions
+###
 Upload ZIP archive
+###
+Send emails when bucket is created and application is deployed
+####
 Update Application status (enable/disable)
+###
 Delete distribution
 
 # Technologies
