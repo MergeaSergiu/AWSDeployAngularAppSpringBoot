@@ -6,9 +6,15 @@ This is a Spring Boot API that allows users to deploy their Angular applications
 
 # Features
 
+###
+Authentication and Authorization: Users need to authenticate to access the resources and the authorization is handled using JWT
+###
 Upload Angular Application: Users can upload a ZIP file containing their Angular app.
+###
 Automatic Build: The API will unzip the application and handle the build process of the Angular app.
+###
 AWS Integration: The app uses AWS services to store the built files in an S3 bucket.
+###
 CloudFront: Once the app is deployed to S3, a CloudFront distribution is created for easy access to the app.
 
 # Functionalities
